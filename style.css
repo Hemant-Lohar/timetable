@@ -44,21 +44,27 @@ table a {
 
 }
 
-.pe, .pe1{
+.pe, .pe1, .pe2, .pe3, .pe4, .oe, .oe1, .oe2{
     position: absolute;
     margin-left: -35px;
     display: none;
     background: #CAD5E2;
 }
 
-.pe a, .pe1 a {
+.pe a, .pe1 a, .pe2 a, .pe3 a, .pe4 a, .oe a, .oe1 a, .oe2 a{
     color: #DCE2F0;
     padding: 10px;
     margin-bottom: 5px;
     background: #023466;
     display: block;
 }
+.pe4 {
+    margin-left: -10px;
+}
 
+.oe, .oe1, .oe2 {
+    margin-left: -10px;
+}
 footer {
     font-size: 0.8rem;
     position: fixed;
@@ -67,6 +73,14 @@ footer {
     color: #7e8186;
     padding: 20px;
 }
+
+/* .show {
+    display: block;
+}
+
+.hide {
+    display: none;
+} */
 
 @media screen and (min-width:700px) and (max-width:1024px) {
     body {
