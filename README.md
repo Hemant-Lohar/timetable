@@ -1,2 +1,2 @@
-# timetable
+# Timetable
 TY Time Table
