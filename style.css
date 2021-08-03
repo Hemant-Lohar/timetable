@@ -58,6 +58,7 @@ table a {
     background: #023466;
     display: block;
 }
+
 .pe4 {
     margin-left: -10px;
 }
@@ -65,15 +66,18 @@ table a {
 .oe, .oe1, .oe2 {
     margin-left: -10px;
 }
+
 footer {
     font-size: 0.8rem;
     position: fixed;
     bottom: 0;
     width: 100%;
     color: #7e8186;
-    padding: 20px;
 }
 
+footer p {
+    margin-bottom: 20px;
+}
 /* .show {
     display: block;
 }
